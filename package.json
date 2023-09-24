@@ -50,6 +50,7 @@
     "preview": "NODE_PATH=src astro preview --port 9000",
     "console": "NODE_PATH=src NODE_ENV=development node -r esm ./src/scripts/console.js",
     "create": "NODE_PATH=src NODE_ENV=production node -r esm ./src/scripts/create.js",
+    "check": "NODE_PATH=src NODE_ENV=production node -r esm ./src/scripts/check.js",
     "lint": "eslint './src/**/*.js' './src/**/*.jsx'",
     "icons": "NODE_PATH=src NODE_ENV=production node -r esm ./src/scripts/icons.js",
     "manifest": "NODE_PATH=src NODE_ENV=production node -r esm ./src/scripts/manifest.js",
